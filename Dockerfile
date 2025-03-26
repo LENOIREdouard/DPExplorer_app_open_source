@@ -1,8 +1,8 @@
 # Utiliser une image légère avec Python
-FROM python:3.10-slim
+FROM python:3.10.6
 
 # Définir le répertoire de travail
-WORKDIR /DPExplorer-interface
+WORKDIR /DPExplorer-app
 
 # Copier les fichiers nécessaires
 COPY requirements.txt .
