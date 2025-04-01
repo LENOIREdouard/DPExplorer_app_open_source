@@ -13,8 +13,8 @@ def navigate_to(page):
 st.sidebar.title("Navigation")
 if st.sidebar.button("Accéder à DPExplorer"):
     navigate_to("DPExplorer")
-if st.sidebar.button("À propos"):
-    navigate_to("À propos")
+if st.sidebar.button("À propos du projet"):
+    navigate_to("À propos du projet")
 
 # Page "DPExplorer"
 if st.session_state["current_page"] == "DPExplorer":
@@ -167,9 +167,9 @@ if st.session_state["current_page"] == "DPExplorer":
 
     main()
 
-# Page "À propos"
-elif st.session_state["current_page"] == "À propos":
-    st.title("À propos")
+# Page "À propos du projet"
+elif st.session_state["current_page"] == "À propos du projet":
+    st.title("À propos du projet")
     st.write("Bienvenue dans l'application DPExplorer !")
     st.markdown("""
 # DPExplorer : Priorisez vos travaux pour un meilleur DPE
@@ -183,9 +183,9 @@ L'objectif est de fournir un **outil interactif**, accessible via une interface 
 
 ## Contexte du projet
 
-Le DPE est un indicateur clé pour évaluer la consommation énergétique d'un logement et ses émissions de gaz à effet de serre (GES). Avec la **loi Climat et Résilience de 2021** et les objectifs de réduction de l'empreinte carbone, l'amélioration de l'isolation des bâtiments est devenue un enjeu majeur.
-
+**Le DPE est un indicateur clé pour évaluer la consommation énergétique d'un logement et ses émissions de gaz à effet de serre (GES).** Avec la **loi Climat et Résilience de 2021** et les objectifs de réduction de l'empreinte carbone, l'amélioration de l'isolation des bâtiments est devenue un enjeu majeur.
 Cependant, les propriétaires et professionnels du bâtiment rencontrent **des difficultés à quantifier l'impact des rénovations** sur la note DPE. **DPExplorer répond à ce besoin en proposant un modèle prédictif basé sur des données réelles.**
+
 ---
 
 ## Données utilisées
@@ -226,10 +226,11 @@ Le projet est déployé sous Streamlit, offrant une interface simple et intuitiv
 
 ## Technologies utilisées
 
-- Python (pandas, scikit-learn, matplotlib, seaborn)
-- Machine Learning : Random Forest, Régression Linéaire
+- Python (pandas, numpy, scikit-learn, requests)
+- Machine Learning : Random Forest Classifier
 - Streamlit pour l'interface utilisateur
 - Docker pour le déploiement
+- Google Cloud Project : Mise en place de la machine virtuelle
 
 ---
 

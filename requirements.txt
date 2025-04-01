@@ -6,6 +6,8 @@ scikit_learn==1.6.0
 python-dotenv
 psycopg2-binary
 
+streamlit
+
 # API
 fastapi==0.108.0
 pytz

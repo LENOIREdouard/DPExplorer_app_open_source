@@ -1,12 +1,10 @@
 import requests
 import pandas as pd
 from api_params import *
-import pandas as pd
 import streamlit as st
 
 base_url = "https://data.ademe.fr/data-fair/api/v1/datasets/dpe-v2-logements-existants/lines"
 our_api = "https://dpexplorer-400228541602.europe-west1.run.app/predict?"
-
 
 
 def get_columns_to_encode():
