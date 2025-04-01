@@ -2,7 +2,7 @@
 FROM python:3.10.6
 
 # Définir le répertoire de travail
-WORKDIR /DPExplorer-app
+WORKDIR /dpexplorer-app
 
 # Copier les fichiers nécessaires
 COPY requirements.txt .

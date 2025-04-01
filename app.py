@@ -181,10 +181,11 @@ L'objectif est de fournir un **outil interactif**, accessible via une interface 
 
 ---
 
-## Contexte du projet :
+## Contexte du projet
 
 **Le DPE est un indicateur clé pour évaluer la consommation énergétique d'un logement et ses émissions de gaz à effet de serre (GES).** Avec la **loi Climat et Résilience de 2021** et les objectifs de réduction de l'empreinte carbone, l'amélioration de l'isolation des bâtiments est devenue un enjeu majeur.
 Cependant, les propriétaires et professionnels du bâtiment rencontrent **des difficultés à quantifier l'impact des rénovations** sur la note DPE. **DPExplorer répond à ce besoin en proposant un modèle prédictif basé sur des données réelles.**
+
 ---
 
 ## Données utilisées

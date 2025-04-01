@@ -7,7 +7,6 @@ base_url = "https://data.ademe.fr/data-fair/api/v1/datasets/dpe-v2-logements-exi
 our_api = "https://dpexplorer-400228541602.europe-west1.run.app/predict?"
 
 
-
 def get_columns_to_encode():
 
     params = {"size": 750}  # Paramètre fixe pour la requête
